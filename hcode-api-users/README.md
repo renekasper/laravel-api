@@ -4,9 +4,15 @@
 O sistema dessa pasta funciona como uma mini CRUD de usuários, listando, adicionando, alterando e removendo do banco de dados (Postgres). 
 
 ## Como usar
+* Você precisa ter um ambiente de desenvolvimento antes de usar este repositório.
+* Instale o Laravel, o Postgres e o Insomnia.
+
+# Tutoriais recomendados:
+https://www.hcode.com.br/blog/instalando-e-configurando-o-laravel-no-windows-linux-e-mac
+https://www.hcode.com.br/blog/o-que-e-o-postgresql-instalando-e-criando-primeiro-banco-de-dados
+https://www.hcode.com.br/blog/usando-insomnia-para-testar-as-requisicoes-de-nossas-
+
 * Baixe ou clone o repositório no seu ambiente local;
-* Instale o Postgres;
-* Instale o Insomnia (melhor para testar as requisições);
 * Altere o arquivo .env na raiz do projeto com os seus dados de conexão ao banco de dados;
 * Altere o que quiser dentro do UsersController.php, pois os métodos do CRUD estão lá.
 * Não esqueça das rotas :p
