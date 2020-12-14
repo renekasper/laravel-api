@@ -21,4 +21,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/users', "App\Http\Controllers\UsersController@index");
 Route::post('/users', "App\Http\Controllers\UsersController@store");
+Route::patch('/users/{user}', "App\Http\Controllers\UsersController@update");
+Route::delete('/users/{user}', "App\Http\Controllers\UsersController@remove");
 

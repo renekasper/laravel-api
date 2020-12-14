@@ -19,4 +19,22 @@ class UsersController extends Controller
 
         return $user;
     }
+
+    public function update(Request $request, User $user) {
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+
+        $user->save();
+
+        return $user;
+    }
+
+    public function remove (User $user) {
+        $user->delete();
+
+        return response()->json([
+            'message'=>'Usuário excluído som sucesso'
+        ]);
+    }
+
 }
