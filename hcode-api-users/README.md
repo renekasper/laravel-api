@@ -1,13 +1,13 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-## Sobre o repositório
+# Sobre o repositório
 O sistema dessa pasta funciona como uma mini CRUD de usuários, listando, adicionando, alterando e removendo do banco de dados (Postgres). 
 
-## Como usar
+# Como usar
 * Você precisa ter um ambiente de desenvolvimento antes de usar este repositório.
 * Instale o Laravel, o Postgres e o Insomnia.
 
-# Tutoriais recomendados:
+### Tutoriais recomendados:
 https://www.hcode.com.br/blog/instalando-e-configurando-o-laravel-no-windows-linux-e-mac
 https://www.hcode.com.br/blog/o-que-e-o-postgresql-instalando-e-criando-primeiro-banco-de-dados
 https://www.hcode.com.br/blog/usando-insomnia-para-testar-as-requisicoes-de-nossas-
