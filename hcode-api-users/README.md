@@ -8,9 +8,9 @@ O sistema dessa pasta funciona como uma mini CRUD de usuários, listando, adicio
 * Instale o Laravel, o Postgres e o Insomnia.
 
 ### Tutoriais recomendados:
-https://www.hcode.com.br/blog/instalando-e-configurando-o-laravel-no-windows-linux-e-mac
-https://www.hcode.com.br/blog/o-que-e-o-postgresql-instalando-e-criando-primeiro-banco-de-dados
-https://www.hcode.com.br/blog/usando-insomnia-para-testar-as-requisicoes-de-nossas-
+1. https://www.hcode.com.br/blog/instalando-e-configurando-o-laravel-no-windows-linux-e-mac
+2. https://www.hcode.com.br/blog/o-que-e-o-postgresql-instalando-e-criando-primeiro-banco-de-dados
+3. https://www.hcode.com.br/blog/usando-insomnia-para-testar-as-requisicoes-de-nossas-
 
 * Baixe ou clone o repositório no seu ambiente local;
 * Altere o arquivo .env na raiz do projeto com os seus dados de conexão ao banco de dados;
