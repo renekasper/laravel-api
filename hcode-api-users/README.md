@@ -1,12 +1,14 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 ## Sobre o repositório
-Ambiente de estudos para testes com Laravel para a criação de APIs.
+O sistema dessa pasta funciona como uma mini CRUD de usuários, listando, adicionando, alterando e removendo do banco de dados (Postgres). 
+
+## Como usar
+Baixe ou clone o repositório no seu ambiente local;
+Instale o Postgres;
+Instale o Insomnia (melhor para testar as requisições);
+Altere o arquivo .env na raiz do projeto com os seus dados de conexão ao banco de dados;
+Altere o que quiser dentro do UsersController.php, pois os métodos do CRUD estão lá.
+Não esqueça das rotas :p
+
 
